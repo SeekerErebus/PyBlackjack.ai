@@ -1,2 +1,6 @@
+from .cli.terminal_ui import run
+
+
 def main() -> None:
-    print("Hello from pyblackjack-ai!")
+    run()
+
